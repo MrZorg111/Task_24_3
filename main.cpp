@@ -22,6 +22,7 @@ int main() {
         std::cout << std::put_time(&local, "%M:%S") << "\n";
         t--;
     }
+    ///Вывод
     std::cout << "DING!!!DING!!!DING!!!";
     return 0;
 }
